@@ -1,0 +1,22 @@
+[github_app]
+pr_commands = [
+    "/agentic_describe",
+    "/agentic_review"
+]
+
+[review_agent]
+inline_comments_severity_threshold = 1
+comments_location_policy = "both"
+
+issues_user_guidelines = """
+O projeto investiga Inspeção em Software: Verificação e Validação de Software.
+
+Ao revisar Pull Requests:
+- verificar vulnerabilidades de segurança;
+- comparar o código com as regras descritas na documentação;
+- identificar bugs lógicos;
+- avaliar tratamento de cupons, descontos e frete;
+- verificar necessidade de testes automatizados;
+- explicar a gravidade e o impacto de cada problema;
+- não sugerir mudanças apenas de estilo sem justificativa.
+"""
