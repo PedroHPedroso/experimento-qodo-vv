@@ -1,5 +1,0 @@
-.graphify-tools/
-.test-tools/
-__pycache__/
-.pytest_cache/
-loja.db
